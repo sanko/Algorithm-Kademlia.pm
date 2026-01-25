@@ -94,7 +94,6 @@
       ".gitignore",
       ".github/",
       ".github/*",
-      "eg/**",
       ".github/**",
       ".clang-format"
    ],
