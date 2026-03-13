@@ -2,6 +2,11 @@
 
 All notable changes to Algorithm::Kademlia will be documented in this file.
 
+## [Unreleased]
+
+### Changed
+- Expose a reader for `$target_id_bin`.
+
 ## [v1.1.0] - 2026-03-11
 
 ### Changed

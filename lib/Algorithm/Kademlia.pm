@@ -122,7 +122,7 @@ package Algorithm::Kademlia v1.1.0 {
         field $publisher : param : reader;
     };
     class Algorithm::Kademlia::Search v1.1.0 {
-        field $target_id_bin : param;
+        field $target_id_bin : param : reader;
         field $k     : param //= 20;
         field $alpha : param //= 3;
         field %nodes;    # id_bin -> { data => ..., queried => 0, responded => 0, failed => 0 }
